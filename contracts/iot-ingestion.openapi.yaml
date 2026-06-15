@@ -190,6 +190,7 @@ paths:
     get:
       tags: [readings]
       operationId: getReadingById
+      description: Return one stored sensor reading by reading_id.
       summary: Lấy chi tiết một bản ghi cảm biến
       parameters:
         - name: reading_id
